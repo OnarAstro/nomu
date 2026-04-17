@@ -6,15 +6,19 @@ const outfit = Outfit({ subsets: ["latin"], weight: ["300", "400", "500"] });
 export const metadata = {
   title: "Nomu - development",
   description: "A simple and efficient tool for managing your projects and tasks.",
+
 };
 
 export default function RootLayout({ children }) {
   return (
     <>
 
+
+
     <Head>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/logo.png" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <title>Nomu - development</title>
     </Head>
 
       <html lang="en">
