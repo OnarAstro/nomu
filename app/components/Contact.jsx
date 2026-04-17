@@ -5,7 +5,7 @@ export default function Contact({ t }) {
   const links = [
     { name: "GitHub", link: "https://github.com/OnarAstro" },
     { name: "LinkedIn", link: "https://www.linkedin.com/in/omar-atef0" },
-    { name: "Twitter", link: "https://twitter.com/nomu_dev" },
+    { name: "Twitter", link: "https://www.linkedin.com/in/omar-atef0" },
     { name: "Instagram", link: "https://www.instagram.com/astro_as3nn/" },
   ];
 
