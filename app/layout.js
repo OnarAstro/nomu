@@ -1,5 +1,6 @@
 import { Outfit } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 const outfit = Outfit({ subsets: ["latin"], weight: ["300", "400", "500"] });
 
 export const metadata = {
@@ -16,6 +17,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <>
+
+    <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+      <link rel="manifest" href="/manifest.json" />
+      <meta name="theme-color" content="#000000" />
+      
+    </Head>
 
       <html lang="en">
         <body className={`${outfit.className} antialiased text-gray-700`}>
